@@ -25,7 +25,7 @@
 
             <div class="row">
                 <div class="col text-center">
-                    <a href="index.jsp" class="btn btn-secondary">Regresar</a>
+                    <a href="PanelAdmin.jsp" class="btn btn-secondary">Regresar</a>
                 </div>
             </div>
         </div>
