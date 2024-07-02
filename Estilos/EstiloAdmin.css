@@ -219,21 +219,4 @@ h3::after{
   margin-top: 10px;
   border-radius: 2px;
 }
-h2{
-  font-size: 2.5rem; 
-  color: var(--blue); 
-  margin-bottom: 20px; 
-  position: relative;
-  display: inline-block;
-  padding-bottom: 10px; 
-}
-h2::after{
-  content: '';
-  width: 50%;
-  height: 4px;
-  background: var(--blue);
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-  border-radius: 2px;
-}
+
