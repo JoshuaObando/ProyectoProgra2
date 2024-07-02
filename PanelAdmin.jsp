@@ -68,7 +68,7 @@
                 fetch(page)
                     .then(response => response.text())
                     .then(data => {
-                        document.getElementById('main-content').innerHTML = data;
+                        document.getElementById('main').innerHTML = data;
                     })
                     .catch(error => console.error('Error loading content:', error));
             }
