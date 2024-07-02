@@ -96,7 +96,9 @@
         <!-- ========================= Créditos ==================== -->
         <div id="creditos">
             <h2>Créditos del proyecto número 2</h2>
+            <div class="imagen">
             <img src="Imagenes/Maylo.jpg">
+        </div>
             <p>Nombre de estudiante: Maylo Daring Parra Aguirre <br>
                 Carrera: Informática Empresarial <br>
                 Curso: Programación II <br>
