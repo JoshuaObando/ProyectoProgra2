@@ -31,16 +31,6 @@
                     <span class="title">Administración</span>
                 </a>
             </li>
-
-            <li>
-                <a href="#lista-empleados">
-                    <span class="icon">
-                        <i class="fa-solid fa-users"></i>
-                    </span>
-                    <span class="title">Lista de empleados</span>
-                </a>
-            </li>
-
             <li>
                 <a href="#creditos">
                     <span class="icon">
@@ -102,11 +92,6 @@
             </table>
             
             
-        </div>
-       <!-- ========================= Lista de empleados ==================== -->
-        <div id="lista-empleados">
-            <h2>Lista de empleados</h2>
-            <p>Contenido de la lista de empleados.</p>
         </div>
         <!-- ========================= Créditos ==================== -->
         <div id="creditos">
