@@ -101,6 +101,9 @@
             <p>Nombre de estudiante: Maylo Daring Parra Aguirre <br>
               Posición en el proyecto: Fronted developer
             </p>
+            
+           </div>
+           <div class="Joshua">
             <img src="Imagenes/Joshua Obando.jpeg" alt="Joshua" class="img-fluid">
             <p>Nombre de estudiante: Joshua David Obando <br>
                 Posición en el proyecto: Backend developer
