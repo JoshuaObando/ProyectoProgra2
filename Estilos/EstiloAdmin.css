@@ -179,3 +179,22 @@ border: 1px solid rgba(255, 255, 255, .4);
 .credit-item p {
   margin: 0;
 }
+#creditos h2 {
+  font-size: 2.5rem; /* Tamaño de la fuente */
+  color: var(--blue); /* Color del texto */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+#creditos h2::after {
+  content: '';
+  width: 50%;
+  height: 4px;
+  background: var(--blue);
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 2px;
+}
