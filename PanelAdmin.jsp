@@ -11,6 +11,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- ========================= Menú ==================== -->
     <div class="navigation">
         <ul>
             <li>
@@ -59,11 +60,13 @@
             </li>
         </ul>
     </div>
+    <!-- ========================= Main ==================== -->
     <div class="main">
         <div id="panel-admin">
             <h2>Panel Administrador</h2>
             <p>Contenido del panel administrador.</p>
         </div>
+        <!-- ========================= Panel administrador principal ==================== -->
         <div id="administracion">
             <h3 class="my-3" id="titulo">Empleados</h3>
             <a href="#nuevo" class="btn btn-success">Agregar</a>
@@ -95,15 +98,17 @@
             </table>
             
         </div>
-
+       <!-- ========================= Lista de empleados ==================== -->
         <div id="lista-empleados">
             <h2>Lista de empleados</h2>
             <p>Contenido de la lista de empleados.</p>
         </div>
+        <!-- ========================= Créditos ==================== -->
         <div id="creditos">
             <h2>Créditos</h2>
             <p>Contenido de los créditos.</p>
         </div>
+        <!-- ========================= Panel editar ==================== -->
         <div id="edita">
             <div class="CRUD">
             <h3 class="my-3">Editar empleado</h3>
@@ -150,6 +155,7 @@
             </form>
             </div>
         </div>
+        <!-- ========================= Ventana eliminar (Nose se funca) ==================== -->
         <div id="elimina">
             <div class="row">
                 <div class="col text-center my-3">
@@ -163,6 +169,7 @@
                 </div>
             </div>
         </div>
+        <!-- ========================= Panel de nuevo empleado ==================== -->
         <div id="nuevo">
             <div class="CRUD">
             <h3 class="my-3">Nuevo empleado</h3>
