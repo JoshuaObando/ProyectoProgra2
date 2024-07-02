@@ -160,11 +160,18 @@ border: 1px solid rgba(255, 255, 255, .4);
   flex: 1;
   max-width: 45%; /* Asegura que ambos elementos ocupen un ancho razonable */
   text-align: center;
+  position: relative;
+  background: rgba(255, 255, 255, 0.1); /* Fondo blanco transparente */
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* Desenfoque */
+  padding: 20px;
+  color: white; /* Color del texto */
+  overflow: hidden;
 }
 
 .credit-item img {
-  width: 300px;
-  height: 300x;
+  width: 300;
+  height: 300;
   border-radius: 10px;
   margin-bottom: 10px; /* Espacio entre la imagen y el texto */
 }
