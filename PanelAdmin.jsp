@@ -58,7 +58,7 @@
         </div>
         <!-- ========================= Panel administrador principal ==================== -->
         <div id="administracion">
-            <h3 class="my-3" id="titulo">Empleados</h3>
+            <h2 class="my-3" id="titulo">Empleados</h2>
             <a href="#nuevo" class="btn btn-success">Agregar</a>
             <table class="table table-hover table-bordered my-3" aria-describedby="titulo">
                 <thead class="table-dark">

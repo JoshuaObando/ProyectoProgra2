@@ -109,8 +109,8 @@
   width: calc(100% - 300px); 
   left: 300px; 
   min-height: 100vh;
-  background: url('../Imagenes/Fondo.jpg') no-repeat center center; /* Añadimos no-repeat y centrado */
-  background-size: cover; /* Hacemos que la imagen cubra todo el contenedor */
+  background: url('../Imagenes/Fondo.jpg') no-repeat center center;
+  background-size: cover; 
   transition: 0.5s;
   display: flex;
   justify-content: center;
@@ -153,19 +153,19 @@ border: 1px solid rgba(255, 255, 255, .4);
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px; /* Ajusta el espacio entre los elementos si es necesario */
+  gap: 20px; 
 }
 
 .credit-item {
   flex: 1;
-  max-width: 45%; /* Asegura que ambos elementos ocupen un ancho razonable */
+  max-width: 45%; 
   text-align: center;
   position: relative;
-  background: rgba(0, 0, 0, .2); /* Fondo blanco transparente */
+  background: rgba(0, 0, 0, .2); 
   border-radius: 15px;
-  backdrop-filter: blur(10px); /* Desenfoque */
+  backdrop-filter: blur(10px); 
   padding: 20px;
-  color: white; /* Color del texto */
+  color: white; 
   overflow: hidden;
 }
 
@@ -173,16 +173,16 @@ border: 1px solid rgba(255, 255, 255, .4);
   width: 300px;
   height: 300px;
   border-radius: 10px;
-  margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+  margin-bottom: 10px; 
 }
 
 .credit-item p {
   margin: 0;
 }
 #creditos h2 {
-  font-size: 2.5rem; /* Tamaño de la fuente */
-  color: var(--blue); /* Color del texto */
-  margin-bottom: 20px; /* Espacio debajo del título */
+  font-size: 2.5rem; 
+  color: var(--blue); 
+  margin-bottom: 20px; 
   position: relative;
   display: inline-block;
   padding-bottom: 10px;
@@ -200,4 +200,40 @@ border: 1px solid rgba(255, 255, 255, .4);
 }
 ::placeholder{
   color: #fff;
+}
+h3{
+  font-size: 2.5rem; 
+  color: var(--blue); 
+  margin-bottom: 20px; 
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px; 
+}
+h3::after{
+  content: '';
+  width: 50%;
+  height: 4px;
+  background: var(--blue);
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+h2{
+  font-size: 2.5rem; 
+  color: var(--blue); 
+  margin-bottom: 20px; 
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px; 
+}
+h2::after{
+  content: '';
+  width: 50%;
+  height: 4px;
+  background: var(--blue);
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 2px;
 }
