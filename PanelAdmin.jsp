@@ -161,7 +161,7 @@
         <div id="nuevo">
             <div class="CRUD">
             <h3 class="my-3">Nuevo empleado</h3>
-
+            <form action="#" class="row g-3" method="post" autocomplete="off">
             <div class="col-md-4">
                 <label for="clave" class="form-label"></label>
                 <input type="text" class="form-control" id="Cedula" name="Cedula" required autofocus placeholder="Cedula">
