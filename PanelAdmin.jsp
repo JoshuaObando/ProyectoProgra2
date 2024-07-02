@@ -14,10 +14,12 @@
     <div class="navigation">
         <ul>
             <li>
+                <a href="">
                     <span class="icon">
                         <i class="fa-solid fa-screwdriver-wrench"></i>
                     </span>
                     <span class="title">Panel Administrador</span>
+                </a>
             </li>
 
             <li>
