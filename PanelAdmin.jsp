@@ -59,7 +59,7 @@
             </li>
         </ul>
     </div>
-    <div class="main">
+    <div id="main" class="main">
  
         </div>
 
