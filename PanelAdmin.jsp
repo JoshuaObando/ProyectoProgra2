@@ -95,6 +95,7 @@
         </div>
         <!-- ========================= Créditos ==================== -->
         <div id="creditos">
+            <div class="CRUD">
             <h2>Créditos del proyecto número 2</h2>
             <img src="Imagenes/Maylo.jpg">
             <p>Nombre de estudiante: Maylo Daring Parra Aguirre <br>
@@ -102,6 +103,7 @@
                 Curso: Programación II <br>
                 Puesto: Frontend Developer <br>
             </p>
+            </div>
         </div>
         <!-- ========================= Panel editar ==================== -->
         <div id="edita">
