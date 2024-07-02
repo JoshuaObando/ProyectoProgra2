@@ -105,6 +105,7 @@
             <p>Contenido de los créditos.</p>
         </div>
         <div id="edita">
+            <div class="CRUD">
             <h3 class="my-3">Editar empleado</h3>
 
             <form action="#" class="row g-3" method="post" autocomplete="off">
@@ -147,7 +148,7 @@
                 </div>
 
             </form>
-
+            </div>
         </div>
         <div id="elimina">
             <div class="row">
@@ -163,6 +164,7 @@
             </div>
         </div>
         <div id="nuevo">
+            <div class="CRUD">
             <h3 class="my-3">Nuevo empleado</h3>
 
             <form action="#" class="row g-3" method="post" autocomplete="off">
@@ -197,7 +199,7 @@
                 </div>
 
             </form>
-    
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
