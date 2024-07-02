@@ -59,7 +59,7 @@
             </li>
         </ul>
     </div>
-    <div id="main" class="main">
+    <div id="main" class="main flex-shrink-0">
  
         </div>
 
