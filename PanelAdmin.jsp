@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,6 +65,7 @@
             <p>Contenido del panel administrador.</p>
         </div>
         <div id="administracion">
+            <div class="container">
             <h3 class="my-3" id="titulo">Empleados</h3>
             <a href="#nuevo" class="btn btn-success">Agregar</a>
             <table class="table table-hover table-bordered my-3" aria-describedby="titulo">
@@ -93,27 +94,29 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
-        <div class="modal fade" id="eliminaModal" tabindex="-1" aria-labelledby="eliminaModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="eliminaModalLabel">Aviso</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>¿Desea eliminar este registro?</p>
-                    </div>
-                    <div class="modal-footer">
-                        <form id="form-elimina" action="" method="post">
-                            <input type="hidden" name="_method" value="delete">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="submit" class="btn btn-danger">Eliminar</button>
-                        </form>
+            <div class="modal fade" id="eliminaModal" tabindex="-1" aria-labelledby="eliminaModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="eliminaModalLabel">Aviso</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>¿Desea eliminar este registro?</p>
+                        </div>
+                        <div class="modal-footer">
+                            <form id="form-elimina" action="" method="post">
+                                <input type="hidden" name="_method" value="delete">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="submit" class="btn btn-danger">Eliminar</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
+            </div>
         </div>
+
         <div id="lista-empleados">
             <h2>Lista de empleados</h2>
             <p>Contenido de la lista de empleados.</p>
@@ -123,6 +126,7 @@
             <p>Contenido de los créditos.</p>
         </div>
         <div id="edita">
+            <div class="container">
             <h3 class="my-3">Editar empleado</h3>
 
             <form action="#" class="row g-3" method="post" autocomplete="off">
@@ -165,9 +169,10 @@
                 </div>
 
             </form>
-
+            </div>
         </div>
         <div id="elimina">
+            <div class="container">
             <div class="row">
                 <div class="col text-center my-3">
                     <h2>Registro eliminado</h2>
@@ -178,9 +183,12 @@
                 <div class="col text-center">
                     <a href="#administracion" class="btn btn-secondary">Regresar</a>
                 </div>
+                
+            </div>
             </div>
         </div>
         <div id="nuevo">
+            <div class="container">
             <h3 class="my-3">Nuevo empleado</h3>
 
             <form action="#" class="row g-3" method="post" autocomplete="off">
@@ -215,7 +223,7 @@
                 </div>
 
             </form>
-    
+            </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
