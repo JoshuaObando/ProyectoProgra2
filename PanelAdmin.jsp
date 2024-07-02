@@ -96,7 +96,12 @@
         <!-- ========================= Créditos ==================== -->
         <div id="creditos">
             <h2>Créditos del proyecto número 2</h2>
-  
+           <div class="Maylo">
+            <img src="Imagenes/Maylo.jpg" alt="Maylo" class="img-fluid">
+            <p>Nombre de estudiante: Maylo Daring Parra Aguirre <br>
+              Posición en el proyecto: Fronted developer
+            </p>
+           </div>
         </div>
         <!-- ========================= Panel editar ==================== -->
         <div id="edita">
