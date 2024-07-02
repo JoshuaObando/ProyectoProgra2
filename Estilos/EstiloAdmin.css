@@ -161,7 +161,7 @@ border: 1px solid rgba(255, 255, 255, .4);
   max-width: 45%; /* Asegura que ambos elementos ocupen un ancho razonable */
   text-align: center;
   position: relative;
-  background: rgba(255, 255, 255, 0.1); /* Fondo blanco transparente */
+  background: rgba(0, 0, 0, .2); /* Fondo blanco transparente */
   border-radius: 15px;
   backdrop-filter: blur(10px); /* Desenfoque */
   padding: 20px;
@@ -170,8 +170,8 @@ border: 1px solid rgba(255, 255, 255, .4);
 }
 
 .credit-item img {
-  width: 300;
-  height: 300;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 10px; /* Espacio entre la imagen y el texto */
 }
