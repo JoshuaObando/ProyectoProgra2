@@ -12,16 +12,14 @@
     <div class="navigation">
         <ul>
             <li>
-                <a href="#panel-admin">
                     <span class="icon">
                         <i class="fa-solid fa-screwdriver-wrench"></i>
                     </span>
                     <span class="title">Panel Administrador</span>
-                </a>
             </li>
 
             <li>
-                <a href="#administracion">
+                <a href="#administracion" onclick="loadContent('CRUD.jsp')">
                     <span class="icon">
                         <i class="fa-solid fa-user-tie"></i>
                     </span>
@@ -30,7 +28,7 @@
             </li>
 
             <li>
-                <a href="#lista-empleados">
+                <a href="#lista-empleados" onclick="loadContent('Empleados.jsp')">
                     <span class="icon">
                         <i class="fa-solid fa-users"></i>
                     </span>
@@ -39,7 +37,7 @@
             </li>
 
             <li>
-                <a href="#creditos">
+                <a href="#creditos" onclick="loadContent('Creditos.jsp')">
                     <span class="icon">
                         <i class="fa-solid fa-circle-info"></i>
                     </span>
@@ -58,24 +56,23 @@
         </ul>
     </div>
     <div class="main">
-        <div id="panel-admin">
-            <h2>Panel Administrador</h2>
-            <p>Contenido del panel administrador.</p>
+ 
         </div>
-        <div id="administracion">
-           <h2>Administración</h2>
-        </div>
-        </div>
-        <div id="lista-empleados">
-            <h2>Lista de empleados</h2>
-            <p>Contenido de la lista de empleados.</p>
-        </div>
-        <div id="creditos">
-            <h2>Créditos</h2>
-            <p>Contenido de los créditos.</p>
-        </div>
+
         
     </div>
-  
+    <script>
+        function loadContent(page) {
+            fetch(page)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('main-content').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading content:', error));
+        }
+    </script>
+
+    <!-- Incluir dicha librería -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
