@@ -143,3 +143,12 @@ border: 1px solid rgba(255, 255, 255, .4);
 #nuevo>.CRUD{
   padding: 20px 30px 0;
 }
+input{
+  display: block;
+  width: 90%;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
