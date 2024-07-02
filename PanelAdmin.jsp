@@ -61,20 +61,20 @@
  
         </div>
 
-        
+        <script>
+            function loadContent(page) {
+                fetch(page)
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('main-content').innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading content:', error));
+            }
+        </script>
+    
+        <!-- Incluir dicha librería -->
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
     </div>
-    <script>
-        function loadContent(page) {
-            fetch(page)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('main-content').innerHTML = data;
-                })
-                .catch(error => console.error('Error loading content:', error));
-        }
-    </script>
-
-    <!-- Incluir dicha librería -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
