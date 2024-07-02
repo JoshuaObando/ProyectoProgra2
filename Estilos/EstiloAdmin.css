@@ -201,3 +201,21 @@ border: 1px solid rgba(255, 255, 255, .4);
 ::placeholder{
   color: #fff;
 }
+h3{
+  font-size: 2.5rem; /* Tamaño de la fuente */
+  color: var(--blue); /* Color del texto */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+h3::after {
+  content: '';
+  width: 50%;
+  height: 4px;
+  background: var(--blue);
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 2px;
+}

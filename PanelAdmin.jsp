@@ -119,8 +119,8 @@
             <form action="#" class="row g-3" method="post" autocomplete="off">
 
                 <div class="col-md-4">
-                    <label for="clave" class="form-label">Cédula</label>
-                    <input type="text" class="form-control" id="Cedula" name="Cedula" required autofocus>
+                    <label for="clave" class="form-label"></label>
+                    <input type="text" class="form-control" id="Cedula" name="Cedula" required autofocus placeholder="Cedula">
                 </div>
 
                 <div class="col-md-8">
@@ -162,36 +162,35 @@
             <div class="CRUD">
             <h3 class="my-3">Nuevo empleado</h3>
 
-            <form action="#" class="row g-3" method="post" autocomplete="off">
-                <div class="col-md-4">
-                    <label for="clave" class="form-label">Cédula</label>
-                    <input type="text" class="form-control" id="Cedula" name="Cedula" required autofocus>
-                </div>
+            <div class="col-md-4">
+                <label for="clave" class="form-label"></label>
+                <input type="text" class="form-control" id="Cedula" name="Cedula" required autofocus placeholder="Cedula">
+            </div>
 
-                <div class="col-md-8">
-                    <label for="nombre" class="form-label">Nombre1</label>
-                    <input type="text" class="form-control" id="nombre1" name="nombre1" required>
-                </div>
-                <div class="col-md-8">
-                    <label for="nombre" class="form-label">Nombre2</label>
-                    <input type="text" class="form-control" id="nombre2" name="nombre2" required>
-                </div>
-                <div class="col-md-8">
-                    <label for="nombre" class="form-label">Apellido1</label>
-                    <input type="text" class="form-control" id="Apellido1" name="Apellido1" required>
-                </div>
-                <div class="col-md-8">
-                    <label for="nombre" class="form-label">Apellido2</label>
-                    <input type="text" class="form-control" id="Apellido2" name="Apellido2" required>
-                </div>
-                <div class="col-md-8">
-                    <label for="nombre" class="form-label">Usuario</label>
-                    <input type="text" class="form-control" id="Usuario" name="Usuario" required>
-                </div>
-                <div class="col-md-8">
-                    <label for="nombre" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="Contraseña" name="Contraseña" required>
-                </div>
+            <div class="col-md-8">
+                <label for="nombre" class="form-label"></label>
+                <input type="text" class="form-control" id="nombre1" name="nombre1" required placeholder="Nombre1">
+            </div>
+            <div class="col-md-8">
+                <label for="nombre" class="form-label"></label>
+                <input type="text" class="form-control" id="nombre2" name="nombre2" required placeholder="Nombre2">
+            </div>
+            <div class="col-md-8">
+                <label for="nombre" class="form-label"></label>
+                <input type="text" class="form-control" id="Apellido1" name="Apellido1" required placeholder="Apellido1">
+            </div>
+            <div class="col-md-8">
+                <label for="nombre" class="form-label"></label>
+                <input type="text" class="form-control" id="Apellido2" name="Apellido2" required placeholder="Apellido2">
+            </div>
+            <div class="col-md-8">
+                <label for="nombre" class="form-label"></label>
+                <input type="text" class="form-control" id="Usuario" name="Usuario" required placeholder="Usuario">
+            </div>
+            <div class="col-md-8">
+                <label for="nombre" class="form-label"></label>
+                <input type="password" class="form-control" id="Contraseña" name="Contraseña" required placeholder="Contraseña">
+            </div>
                 
                 <div class="col-12">
                     <a href="#administracion" class="btn btn-secondary">Regresar</a>
