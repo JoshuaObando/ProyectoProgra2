@@ -23,7 +23,7 @@
             </li>
 
             <li>
-                <a href="#administracion" onclick="loadContent('CRUD.jsp')">
+                <a href="#administracion" onclick="loadContent('CRUD.jsp'); return false;">
                     <span class="icon">
                         <i class="fa-solid fa-user-tie"></i>
                     </span>
@@ -32,7 +32,7 @@
             </li>
 
             <li>
-                <a href="#lista-empleados" onclick="loadContent('Empleados.jsp')">
+                <a href="#lista-empleados" onclick="loadContent('Empleados.jsp'); return false;">
                     <span class="icon">
                         <i class="fa-solid fa-users"></i>
                     </span>
@@ -41,7 +41,7 @@
             </li>
 
             <li>
-                <a href="#creditos" onclick="loadContent('Creditos.jsp')">
+                <a href="#creditos" onclick="loadContent('Creditos.jsp'); return false;">
                     <span class="icon">
                         <i class="fa-solid fa-circle-info"></i>
                     </span>
@@ -69,13 +69,52 @@
                     .then(response => response.text())
                     .then(data => {
                         document.getElementById('main').innerHTML = data;
+                        attachLinkHandlers();
+                        attachFormHandlers();
                     })
                     .catch(error => console.error('Error loading content:', error));
             }
+    
+            function attachLinkHandlers() {
+                document.querySelectorAll('#main a').forEach(link => {
+                    link.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        loadContent(this.getAttribute('href'));
+                    });
+                });
+            }
+    
+            function attachFormHandlers() {
+                document.querySelectorAll('#main form').forEach(form => {
+                    form.addEventListener('submit', function (e) {
+                        e.preventDefault();
+                        const formData = new FormData(this);
+                        fetch(this.getAttribute('action'), {
+                            method: this.getAttribute('method') || 'POST',
+                            body: formData
+                        })
+                        .then(response => response.text())
+                        .then(data => {
+                            document.getElementById('main').innerHTML = data;
+                            attachLinkHandlers();
+                            attachFormHandlers();
+                        })
+                        .catch(error => console.error('Error submitting form:', error));
+                    });
+                });
+            }
+    
+            document.addEventListener('DOMContentLoaded', () => {
+                attachLinkHandlers();
+                attachFormHandlers();
+            });
         </script>
     
         <!-- Incluir dicha librería -->
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
     </div>
     
 </body>
