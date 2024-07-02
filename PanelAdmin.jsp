@@ -73,21 +73,25 @@
             <table class="table table-hover table-bordered my-3" aria-describedby="titulo">
                 <thead class="table-dark">
                     <tr>
-                        <th scope="col">Clave</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Teléfono</th>
-                        <th scope="col">Correo</th>
-                        <th scope="col">Departamento</th>
+                        <th scope="col">Cédula</th>
+                        <th scope="col">Nombre1</th>
+                        <th scope="col">Nombre2</th>
+                        <th scope="col">Apellido1</th>
+                        <th scope="col">Apellido2</th>
+                        <th scope="col">Usuario</th>
+                        <th scope="col">Contraseña</th>
                         <th scope="col">Opciones</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>12345</td>
-                        <td>Milo Parra</td>
-                        <td>0123456789</td>
-                        <td>a494256@gmail.com</td>
-                        <td>Admin</td>
+                        <td>604900217</td>
+                        <td>Maylo</td>
+                        <td>Daring</td>
+                        <td>Parra</td>
+                        <td>Aguirre</td>
+                        <td>MayloParra</td>
+                        <td>Admin123</td>
                         <td>
                             <a href="#edita" class="btn btn-warning btn-sm me-2">Editar</a>
                             <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal"
@@ -116,36 +120,35 @@
             <form action="#" class="row g-3" method="post" autocomplete="off">
 
                 <div class="col-md-4">
-                    <label for="clave" class="form-label">Clave</label>
-                    <input type="text" class="form-control" id="clave" name="clave" required autofocus>
+                    <label for="clave" class="form-label">Cédula</label>
+                    <input type="text" class="form-control" id="Cedula" name="Cedula" required autofocus>
                 </div>
 
                 <div class="col-md-8">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    <label for="nombre" class="form-label">Nombre1</label>
+                    <input type="text" class="form-control" id="nombre1" name="nombre1" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Nombre2</label>
+                    <input type="text" class="form-control" id="nombre2" name="nombre2" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Apellido1</label>
+                    <input type="text" class="form-control" id="Apellido1" name="Apellido1" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Apellido2</label>
+                    <input type="text" class="form-control" id="Apellido2" name="Apellido2" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" id="Usuario" name="Usuario" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="Contraseña" name="Contraseña" required>
                 </div>
 
-                <div class="col-md-6">
-                    <label for="fecha_nacimiento" class="form-label">Fecha de nacimiento</label>
-                    <input type="date" class="form-control" id="fecha_nacimiento" name="fecha_nacimiento" required>
-                </div>
-
-                <div class="col-md-6">
-                    <label for="telefono" class="form-label">Teléfono</label>
-                    <input type="telefono" class="form-control" id="telefono" name="telefono" required>
-                </div>
-
-                <div class="col-md-6">
-                    <label for="correo_electronico" class="form-label">Correo electrónico</label>
-                    <input type="email" class="form-control" id="correo_electronico" name="correo_electronico">
-                </div>
-
-                <div class="col-md-6">
-                    <label for="departamento" class="form-label">Departamento</label>
-                    <select class="form-select" id="departamento" name="departamento" required>
-                        <option value="">Seleccionar</option>
-                    </select>
-                </div>
 
                 <div class="col-12">
                     <a href="#administracion" class="btn btn-secondary">Regresar</a>
@@ -176,28 +179,33 @@
 
             <form action="#" class="row g-3" method="post" autocomplete="off">
                 <div class="col-md-4">
-                    <label for="clave" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="clave" name="clave" required autofocus>
+                    <label for="clave" class="form-label">Cédula</label>
+                    <input type="text" class="form-control" id="Cedula" name="Cedula" required autofocus>
                 </div>
-                <div class="col-md-4">
-                    <label for="clave" class="form-label">Nombre2</label>
-                    <input type="text" class="form-control" id="clave" name="clave" required autofocus>
+
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Nombre1</label>
+                    <input type="text" class="form-control" id="nombre1" name="nombre1" required>
                 </div>
-                <div class="col-md-4">
-                    <label for="clave" class="form-label">Apellido1</label>
-                    <input type="text" class="form-control" id="clave" name="clave" required autofocus>
-                </div> 
-                <div class="col-md-4">
-                    <label for="clave" class="form-label">Apellido2</label>
-                    <input type="text" class="form-control" id="clave" name="clave" required autofocus>
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Nombre2</label>
+                    <input type="text" class="form-control" id="nombre2" name="nombre2" required>
                 </div>
-                <div class="col-md-4">
-                    <label for="clave" class="form-label">Usuario</label>
-                    <input type="text" class="form-control" id="clave" name="clave" required autofocus>
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Apellido1</label>
+                    <input type="text" class="form-control" id="Apellido1" name="Apellido1" required>
                 </div>
-                <div class="col-md-4">
-                    <label for="clave" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="clave" name="clave" required autofocus>
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Apellido2</label>
+                    <input type="text" class="form-control" id="Apellido2" name="Apellido2" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" id="Usuario" name="Usuario" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="nombre" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="Contraseña" name="Contraseña" required>
                 </div>
                 
                 <div class="col-12">
