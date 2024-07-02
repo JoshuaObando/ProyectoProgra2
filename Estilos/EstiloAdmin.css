@@ -137,6 +137,6 @@ border: 1px solid rgba(255, 255, 255, .4);
 .main > div:target {
     display: block;
 }
-.main > .CRUD{
+div{
   padding: 20px 30px 0;
 }
