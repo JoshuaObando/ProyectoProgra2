@@ -18,7 +18,7 @@
 <div id="modal" class="modal">
     <div class="modal-content">
         <p id="modal-message"></p>
-        <button class="close-button" onclick="closeModal()">Cerrar</button>
+        <button class="close-button" onclick="redirectTo('Empleado.jsp')">Cerrar</button>
     </div>
 </div>
 
@@ -34,10 +34,12 @@
         document.getElementById('modal').style.display = 'flex';
     }
 
-    function closeModal() {
-        document.getElementById('modal').style.display = 'none';
+    
+</script>
+<script>
+    function redirectTo(url) {
+        window.location.href = url;
     }
 </script>
-
 </body>
 </html>
