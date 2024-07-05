@@ -119,5 +119,9 @@ font-size: 30px;
     top:0; left: 0;
     z-index: -1;
 }
-
+@media screen and (max-width:800px) {
+    .content-modal{
+        width: 90%;
+    }
+}
 /*:::Fin Ventana Modal:::*/
