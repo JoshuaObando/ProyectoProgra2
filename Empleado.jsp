@@ -9,10 +9,10 @@
     <title>Panel de Empleado</title>
 </head>
 <body>
-    <button class="corner-button top-left">San Roque</button>
-    <button class="corner-button top-right">Aeropuerto</button>
-    <button class="corner-button bottom-left">Universidad de Costa Rica</button>
-    <button class="corner-button bottom-right">El pulmón</button>
+    <button class="top-left">San Roque</button>
+    <button class="top-right">Aeropuerto</button>
+    <button class="bottom-left">Universidad de Costa Rica</button>
+    <button class="bottom-right">El pulmón</button>
     
      <!--Boton-->
     <div class="boton-modal">
