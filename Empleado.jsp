@@ -9,10 +9,10 @@
     <title>Panel de Empleado</title>
 </head>
 <body>
-    <button class="top-left">San Roque</button>
-    <button class="top-right">Aeropuerto</button>
-    <button class="bottom-left">Universidad de Costa Rica</button>
-    <button class="bottom-right">El pulmón</button>
+    <button class="top-left" onclick="redirectTo('MetodoPago')">San Roque</button>
+    <button class="top-right" onclick="redirectTo('MetodoPago')">Aeropuerto</button>
+    <button class="bottom-left" onclick="redirectTo('MetodoPago')">Universidad de Costa Rica</button>
+    <button class="bottom-right" onclick="redirectTo('MetodoPago')">El pulmón</button>
     
      <!--Boton-->
     <div class="boton-modal">
@@ -45,7 +45,11 @@
         window.location.href = 'index.jsp'; // Reemplaza con la ruta de tu archivo HTML
     });
 </script>
-   
+<script>
+    function redirectTo(url) {
+        window.location.href = url;
+    }
+</script>
    
     
 </body>
