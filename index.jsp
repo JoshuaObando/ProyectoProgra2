@@ -11,7 +11,7 @@
 <body>
 
     <div     class="Login">
-        <form action="Empleado.jsp" class="formulario">
+        <form action="PanelAdmin.jsp" class="formulario">
    
            <h2>INGRESO</h2>
            <div class="entrada">

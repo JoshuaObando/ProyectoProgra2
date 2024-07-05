@@ -9,19 +9,20 @@
     <title>Panel de Empleado</title>
 </head>
 <body>
+    <!--Botones de rutas-->
     <button class="top-left" onclick="redirectTo('MetodoPago.jsp')">San Roque</button>
     <button class="top-right" onclick="redirectTo('MetodoPago.jsp')">Aeropuerto</button>
     <button class="bottom-left" onclick="redirectTo('MetodoPago.jsp')">Universidad de Costa Rica</button>
     <button class="bottom-right" onclick="redirectTo('MetodoPago.jsp')">El pulmón</button>
     
-     <!--Boton-->
+     <!--Boton fenalizar día-->
     <div class="boton-modal">
         <label for="btn-modal">
             Finalizar el día
         </label>
     </div>
 <!--Fin de Boton-->
-<!--Ventana Modal-->
+<!--Ventana de totales-->
     <input type="checkbox" id="btn-modal">
     <div class="container-modal">
         <div class="content-modal">
@@ -38,17 +39,17 @@
         </div>
         <label for="btn-modal" class="cerrar-modal"></label>
     </div>
-<!--Fin de Ventana Modal-->
+<!--Fin de Ventana-->
 <script>
     document.getElementById('btn-cerrar').addEventListener('click', function() {
-        // Redirigir a otra página HTML local
-        window.location.href = 'index.jsp'; // Reemplaza con la ruta de tu archivo HTML
+        // Redirigir a otra página JSP local
+        window.location.href = 'index.jsp'; 
     });
 </script>
 <script>
     function redirectTo(url) {
         window.location.href = url;
-    }
+    }//Este también redirige a otra pagina JSP
 </script>
    
     

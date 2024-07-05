@@ -9,12 +9,12 @@
    
 </head>
 <body>
-
+<!--Botones de tipos de pago-->
 <div class="button-container">
     <button class="button" onclick="showModal('efectivo')">En Efectivo</button>
     <button class="button" onclick="showModal('pagoRapido')">Pago Rápido</button>
 </div>
-
+<!--Boton de salir al darle cerrar lo manda a el panel empleado-->
 <div id="modal" class="modal">
     <div class="modal-content">
         <p id="modal-message"></p>
@@ -39,7 +39,7 @@
 <script>
     function redirectTo(url) {
         window.location.href = url;
-    }
+    }//redirecciona a otro JSP
 </script>
 </body>
 </html>
