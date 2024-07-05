@@ -219,4 +219,7 @@ h3::after{
   margin-top: 10px;
   border-radius: 2px;
 }
-
+th{
+  background-color: var(--blue);
+  color: var(--white);
+}
