@@ -9,10 +9,10 @@
     <title>Panel de Empleado</title>
 </head>
 <body>
-    <button class="top-left" onclick="redirectTo('MetodoPago')">San Roque</button>
-    <button class="top-right" onclick="redirectTo('MetodoPago')">Aeropuerto</button>
-    <button class="bottom-left" onclick="redirectTo('MetodoPago')">Universidad de Costa Rica</button>
-    <button class="bottom-right" onclick="redirectTo('MetodoPago')">El pulmón</button>
+    <button class="top-left" onclick="redirectTo('MetodoPago.jsp')">San Roque</button>
+    <button class="top-right" onclick="redirectTo('MetodoPago.jsp')">Aeropuerto</button>
+    <button class="bottom-left" onclick="redirectTo('MetodoPago.jsp')">Universidad de Costa Rica</button>
+    <button class="bottom-right" onclick="redirectTo('MetodoPago.jsp')">El pulmón</button>
     
      <!--Boton-->
     <div class="boton-modal">
