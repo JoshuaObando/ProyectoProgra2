@@ -7,7 +7,7 @@
     <title>Pago</title>
     <style>
         body {
-            background-image: url('../Imagenes/Fondo.jpg');
+            background:url('../Imagenes/Fondo.jpg') no-repeat center center;
             background-size: cover; 
             font-family: 'Arial', sans-serif;
             display: flex;
