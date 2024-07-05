@@ -7,7 +7,7 @@
    
   }
 body{
-    background-image: url(../Imagenes/fondo.jpg);
+    background:url('../Imagenes/Fondo.jpg') no-repeat center center;
     background-size: cover; 
     margin: 15px;
     padding: 14px;
