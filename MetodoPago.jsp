@@ -13,7 +13,8 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            background:url('../Imagenes/Fondo.jpg') no-repeat center center;
+            background-size: cover; 
         }
         .button-container {
             display: flex;
@@ -27,7 +28,9 @@
             font-size: 24px;
             color: white;
             width: 250px;
-            background-color: #3498db;
+            background-color: rgba(0, 0, 0, .2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, .4);
             border: none;
             border-radius: 10px;
             cursor: pointer;
