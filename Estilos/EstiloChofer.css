@@ -24,19 +24,19 @@ button {
 }
 .top-left {
     top: 70px;
-    left: 40px;
+    left: 100px;
 }
 .top-right {
     top: 70px;
-    right: 40px;
+    right: 100px;
 }
 .bottom-left {
     bottom: 70px;
-    left: 40px;
+    left: 100px;
 }
 .bottom-right {
     bottom: 70px;
-    right: 40px;
+    right: 100px;
 }
 .boton-modal {
     position: absolute;
