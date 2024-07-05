@@ -53,7 +53,7 @@ button {
     font-size: 15px;
     text-align: center;
 }
-.corner-button{
+button{
 background-color: rgba(0, 0, 0, .2);
 border-radius: 10px;
 backdrop-filter: blur(10px);
