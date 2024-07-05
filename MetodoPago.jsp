@@ -7,14 +7,14 @@
     <title>Pago</title>
     <style>
         body {
+            background-image: url('../Imagenes/Fondo.jpg');
+            background-size: cover; 
             font-family: 'Arial', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
-            background:url('../Imagenes/Fondo.jpg') no-repeat center center;
-            background-size: cover; 
+            margin: 0; 
         }
         .button-container {
             display: flex;
