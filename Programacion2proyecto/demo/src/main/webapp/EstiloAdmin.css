@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  :root {
+    --blue: #000080;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+  }
+  
+  body {
+    min-height: 100vh;
+    overflow-x: hidden;
+  
+  }
+  /* =============== Navegación ================ */
+.navigation {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: var(--blue);
+    border-left: 10px solid var(--blue);
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .navigation.active {
+    width: 80px;
+  }
+  
+  .navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .navigation ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  .navigation ul li:hover,
+  .navigation ul li.hovered {
+    background-color: var(--white);
+  }
+  
+  .navigation ul li:nth-child(1) {
+    margin-bottom: 40px;
+    pointer-events: none;
+  }
+  
+  .navigation ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: var(--white);
+  }
+  .navigation ul li:hover a,
+  .navigation ul li.hovered a {
+    color: var(--blue);
+  }
+  
+  .navigation ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+  }
+  .navigation ul li a .icon {
+    font-size: 1.65rem;
+  }
+  
+  .navigation ul li a .title {
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+  }
+.Seccion{
+  
+    margin-top: 350px;
+
+
+}
+.Panel{
+    font-weight: bold;
+}
+.main {
+  position: absolute;
+  width: calc(100% - 300px); 
+  left: 300px; 
+  min-height: 100vh;
+  background: url('../Imagenes/Fondo.jpg') no-repeat center center;
+  background-size: cover; 
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+}
+  .main.active {
+    width: calc(100% - 120px); 
+    left: 120px; 
+  }
+  .Ingreso{
+position: relative;
+width: 200px;
+height: 350px;
+padding: 10px 10px;
+background-color: rgba(0, 0, 0, .2);
+border-radius: 10px;
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, .4);
+  }
+  .main > div {
+    display: none;
+    margin: 10px;
+    padding: 10px;
+}
+.main > div:target {
+    display: block;
+}
+#edita>.CRUD{
+  padding: 20px 30px 0;
+}
+#nuevo>.CRUD{
+  padding: 20px 30px 0;
+}
+#creditos {
+  text-align: center;
+  padding: 20px;
+}
+
+.credits-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.credit-item {
+  flex: 1;
+  max-width: 45%; 
+  text-align: center;
+  position: relative;
+  background: rgba(0, 0, 0, .2); 
+  border-radius: 15px;
+  backdrop-filter: blur(10px); 
+  padding: 20px;
+  color: white; 
+  overflow: hidden;
+}
+
+.credit-item img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px; 
+}
+
+.credit-item p {
+  margin: 0;
+}
+#creditos h2 {
+  font-size: 2.5rem; 
+  color: var(--blue); 
+  margin-bottom: 20px; 
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+#creditos h2::after {
+  content: '';
+  width: 50%;
+  height: 4px;
+  background: var(--blue);
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+::placeholder{
+  color: #fff;
+}
+h3{
+  font-size: 2.5rem; 
+  color: var(--blue); 
+  margin-bottom: 20px; 
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px; 
+}
+h3::after{
+  content: '';
+  width: 50%;
+  height: 4px;
+  background: var(--blue);
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+th{
+  background-color: var(--blue);
+  color: var(--white);
+}
