@@ -45,11 +45,10 @@
     <input type="checkbox" id="btn-modal">
     <div class="container-modal">
         <div class="content-modal">
-            <h2>¡Bienvenido!</h2>
-            //Mostar la suma de los acumuladores
+            <h2>¡Día finalizado!</h2>
                 Total en efectivo: <%= acumuladoEfectivo %> colones<br>
                 Total pago fácil: <%= acumuladoTarjeta %> colones<br>
-                El chofer a acomulado: <%= suma %> colones<br>
+                El chofer a acumulado: <%= suma %> colones<br>
             </p>
 
             <div id="btn-cerrar" class="btn-cerrar">
