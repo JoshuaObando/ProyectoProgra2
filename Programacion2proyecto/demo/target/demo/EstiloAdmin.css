@@ -109,7 +109,7 @@
   width: calc(100% - 300px); 
   left: 300px; 
   min-height: 100vh;
-  background: url('/Programacion2proyecto/demo/src/main/webapp/Imagenes/Fondo.jpg');
+  background-image: url('https://drive.google.com/file/d/1tKoE8IcPu0Xi9ZoBtCh6-0702rb_PRZZ/view?usp=sharing');
   background-size: cover; 
   transition: 0.5s;
   display: flex;

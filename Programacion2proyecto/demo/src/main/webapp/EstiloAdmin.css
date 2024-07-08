@@ -18,6 +18,8 @@
   body {
     min-height: 100vh;
     overflow-x: hidden;
+    background: url('Imagenes/Fondo.jpg') no-repeat center center;
+    background-size: cover; 
   
   }
   /* =============== Navegación ================ */
@@ -109,8 +111,6 @@
   width: calc(100% - 300px); 
   left: 300px; 
   min-height: 100vh;
-  background-image: url('https://drive.google.com/file/d/1tKoE8IcPu0Xi9ZoBtCh6-0702rb_PRZZ/view?usp=sharing');
-  background-size: cover; 
   transition: 0.5s;
   display: flex;
   justify-content: center;
