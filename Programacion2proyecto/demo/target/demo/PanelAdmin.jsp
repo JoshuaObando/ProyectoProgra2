@@ -71,6 +71,13 @@
                     <span class="title">Créditos</span>
                 </a>
             </li>
+            <li>
+                <a href="#Video">
+                    <span class="icon">
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
+                    <span class="title">Video</span>
+                </a>
             <li class="Seccion">
                 <a href="index.jsp">
                     <span class="icon">
@@ -232,6 +239,9 @@
                 </div>
             </form>
         </div>
+    </div>
+    <div id="Video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y0OItgMiTzc?si=N4ObZHhGVu032HrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <div class="modal fade" id="eliminaModal" tabindex="-1" aria-labelledby="eliminaModalLabel" aria-hidden="true">
